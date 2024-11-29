@@ -8,6 +8,14 @@ head{
 
 body{
     background-color: gray;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+p{
+    margin: auto;
+    width: 75%;
     text-align: center;
 }
 
