@@ -14,7 +14,7 @@ head{
 }
 
 body{
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(150, 150, 150);
     margin: auto;
     width: 75%;
     text-align: center;
@@ -32,4 +32,32 @@ footer{
 
 a{
     font-size: x-large;
+}
+
+ul{
+    text-align: left;
+}
+
+
+
+ul.mainBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 70%;
+  display: flex;
+}
+
+ul.mainBar li{
+    margin-right: 20px;
+}
+
+.skillsList {
+    text-align: left;
+    position: relative; 
+    display: inline-block; 
+	padding-left: 1em; 
+	left: 5%; 
+	transform: translateX(-50%);
 }
